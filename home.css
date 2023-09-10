@@ -1,0 +1,107 @@
+/* Importar la fuente de Google Fonts para su uso en todo el documento */
+@import url('https://fonts.googleapis.com/css2?family=Pompiere&display=swap');
+
+/* Estilos generales para el documento HTML */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pompiere', cursive;
+    /* Aplicar la fuente de Google Fonts al texto */
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    height: 100%;
+    margin: auto 40px;
+    /* Márgenes laterales y automargin superior e inferior */
+    padding: 0.2%;
+    background-color: #fff;
+}
+
+/* Estilos para el encabezado */
+header {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+}
+
+/* Estilos para el logotipo en .logoCosturitaDiana */
+.logoCosturitaDiana {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    /* Usar 50% para crear un círculo perfecto */
+    overflow: hidden;
+    /* Recorta cualquier parte de la imagen que salga del círculo */
+    display: flex;
+    align-items: center;
+}
+
+.logoCosturitaDiana img {
+    width: 335px;
+    height: 335px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+/* Estilos para el contenedor de redes sociales en #rSociales */
+#rSociales {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para los íconos de Facebook, Instagram y WhatsApp */
+.facebookIco,
+.instagramIco,
+.whatsappIco {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    /* Usar 50% para crear un círculo perfecto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* Recorta cualquier parte de la imagen que salga del círculo */
+}
+
+/* Estilos para las imágenes dentro de los íconos */
+.facebookIco img,
+.instagramIco img,
+.whatsappIco img {
+    width: 60px;
+    height: 60px;
+    /* Para mantener la relación de aspecto de la imagen */
+    border: 2px solid #000;
+    border-radius: 50%;
+    /* Usar 50% para crear un círculo perfecto */
+}
+
+/* Estilos para el contenedor general */
+.container {
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+}
+
+/* Estilos para los párrafos de texto */
+p {
+    font-size: 30px;
+    padding: 5px;
+    margin: 0px;
+    /* Eliminar el margen predeterminado para evitar espacio adicional */
+}
+
+.facebookIco img:hover,
+.instagramIco img:hover,
+.whatsappIco img:hover {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to top , rgba(4, 0, 255, 0.308) 0%, rgb(194, 236, 253) 60%, rgba(255, 255, 255, 0.8) 100%);
+}
